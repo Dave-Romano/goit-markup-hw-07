@@ -1,0 +1,30 @@
+.strong-points__list {
+  display: flex;
+}
+
+.strong-points__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.strong-points__item-title {
+  color: var(--secondary-text-color);
+  font-size: 14px;
+  line-height: 1.17;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.strong-points__item-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.strong-points__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}

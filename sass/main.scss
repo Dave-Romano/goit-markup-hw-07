@@ -1,0 +1,23 @@
+// UTILITES
+@import './utils/variables';
+@import './utils/utils-classes';
+
+// BASE
+@import './base/common';
+@import './base/container';
+
+// COMPONENTS
+@import './components/social-links';
+@import './components/section';
+@import './components/title';
+@import './components/logo';
+@import './components/modal';
+
+// LAYOUT
+@import './layout/header';
+@import './layout/main/hero';
+@import './layout/main/strong-points';
+@import './layout/main/what-we-do';
+@import './layout/main/our-team';
+@import './layout/main/clients';
+@import './layout/footer';
